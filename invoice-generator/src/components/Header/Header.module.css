@@ -1,0 +1,45 @@
+@import url(https://fonts.googleapis.com/css?family=Ubuntu:300,300italic,regular,italic,500,500italic,700,700italic);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+.header {
+  width: 85%;
+  display: flex;
+  align-items: center;
+  color: whitesmoke;
+}
+
+.header > h1 {
+  font-family: "Ubuntu", sans-serif;
+  flex: 1;
+  cursor: pointer;
+}
+
+.textLink {
+  margin: 0 5rem;
+  color: inherit;
+  text-decoration: inherit;
+  font-family: "Montserrat", sans-serif;
+  padding: 0.5rem;
+  border-radius: 1.5rem;
+  transition: all;
+  transition-duration: 300ms;
+}
+
+.textLink:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 842px) {
+  .textLink {
+    font-size: 12px;
+    margin:0;
+  }
+}
+
+
+@media (max-width: 768px) {
+    .textLink {
+      font-size: 10px;
+      margin:0;
+    }
+  }
+  

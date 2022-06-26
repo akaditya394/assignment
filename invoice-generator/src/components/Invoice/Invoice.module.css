@@ -1,0 +1,43 @@
+.invoice {
+  background-color: #fff;
+  width: 85%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 1rem;
+  padding: 2rem;
+  margin: 1rem 0;
+  font-family: "Montserrat", sans-serif
+}
+
+.upper {
+  margin: 1rem 0;
+  width: 95%;
+  display: flex;
+  justify-content:space-between;
+  background-color: whitesmoke;
+  padding: 1rem;
+  border-radius: 1rem;
+}
+
+.headings {
+  width: 95%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.heading > p {
+  font-weight: bold;
+}
+
+.items {
+  width: 100%;
+}
+
+.footer {
+  margin: 1rem 0;
+  width: 73%;
+  display: flex;
+  align-items: flex-end;
+}
